@@ -60,7 +60,7 @@ cursor: pointer;
 
 @media(max-width: 480px){
     #logo{
-        width: 100vw;
+        width: 90vw;
     }
     #name, #VirAssist {
         font-size: 40px; 
