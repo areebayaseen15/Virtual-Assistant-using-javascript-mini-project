@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -54,3 +54,75 @@ cursor: pointer;
     box-shadow: 2px 2px 20px rgb(21, 145, 207),2px 2px 20px rgb(201, 41, 116);
     letter-spacing: 2px;
 }
+
+
+/* media querry responsiveness */
+
+@media(max-width: 480px){
+    #logo{
+        width: 100vw;
+    }
+    #name, #VirAssist {
+        font-size: 40px; 
+    }
+
+    #btn {
+        width: 90%; 
+        font-size: 20px; 
+        padding: 8px;
+        height: 70px;
+    }
+   
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #logo{
+        width: 100vw;
+    }
+    #name, #VirAssist {
+        font-size: 40px; 
+    }
+
+    #btn {
+        width: 90%; 
+        font-size: 20px; 
+        padding: 8px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #logo{
+        width: 70vw;
+    }
+    #name, #VirAssist {
+        font-size: 40px; 
+    }
+
+    #btn {
+        width: 90%; 
+        font-size: 35px; 
+        padding: 8px;
+        height: 70px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    #logo {
+        width: 25vw;
+    }
+
+    #name, #VirAssist {
+        font-size: 45px;
+    }
+
+    #btn {
+        width: 30%; 
+        font-size: 35px; 
+        padding: 10px;
+        height: 70px;
+    }
+}
+
