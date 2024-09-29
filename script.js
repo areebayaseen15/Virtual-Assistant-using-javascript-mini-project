@@ -111,7 +111,15 @@ function takeCommand(message) {
     else if (message.includes("open instagram")) {
         speak("Opening Instagram...");
         window.open("https://instagram.com/", "_blank");
-    } 
+    }  
+    else if(message.includes("open whatsapp")){
+        speak("opening whatsapp..")
+        window.open("whatsapp://")
+    }
+    else if(message.includes("open calculator")){
+        speak("opening calculator..")
+        window.open("calculator://")
+    }
     else if (message.includes("time")) {
         let time = new Date().toLocaleString(undefined, { hour: "numeric", minute: "numeric" });
         speak(`The time is ${time}`);
